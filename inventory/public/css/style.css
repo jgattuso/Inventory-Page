@@ -1,0 +1,200 @@
+body   {
+		background-color:white;
+    	font-size:20px;
+		text-align:left;
+		color: gray;
+		margin: 0;
+		margin-top: 75px;}
+
+.navBar {
+		position: fixed;}
+		
+ul {
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: gray;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;}
+
+li {
+		float: left;}
+		
+li a {
+		color:white;
+		text-align:center;
+		position: relative;
+		font-size:22px;
+		display: block;
+	    padding: 16px 20px;
+	    text-decoration: none;}
+		
+li a:hover {
+		background-color: black;
+		cursor: pointer;}
+		
+li.header   {
+		color: yellow;
+		text-align: center;
+		font-size: 22px;
+		font-style: bold;
+		border: none;
+		display: inline-block;
+		padding: 16px 20px;}	
+
+li.dropdown-bar {
+    	display: block;}
+		
+.dropdown {
+		background-color:white;
+		width: 240px;
+		color: gray;
+		font-size:20px;
+		text-align: left;
+		display: inline-block;
+		padding: 8px 75px;
+		border: none;}
+		
+.dropdown-arrow {
+		background-color:white;
+		width: 10px;
+		color: gray;
+		font-size:20px;
+		text-align: left;
+		display: inline-block;
+		padding: 8px 10px;
+		border: none;}
+		
+.button-group {
+		border: none;
+		border-bottom: 1px solid gray;}
+		
+.button-group:hover, .dropdown-arrow:hover, .dropdown:hover {
+		border-color: red;
+		cursor: pointer;}
+
+.selectDrop {
+		float: middle;
+		text-align: center;
+		display: inline-block;}
+		
+.dropOptions {
+		display: none;
+		position: fixed;
+	    background-color: white;
+	    text-align: center;
+	    width: 250px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;}
+	
+.dropOptions a {
+	    color: black;
+	    display: block;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    text-align: center;}
+
+.dropOptions a:hover {
+		background-color: lightgray;
+		cursor: pointer;}
+
+#dropMenu {
+		display: none;}
+
+.dropdown-content {
+	    display: none;
+	    width: 100px;
+	    margin: auto;
+	    position: fixed;
+	    background-color: white;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;}
+
+.dropdown-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;}
+	    
+.dropdown-content a:hover {
+		background-color: lightgray;}
+
+.dropdown-bar:hover .dropdown-content {
+    	display: block;}
+		
+input[type=text], input[type=email]{
+		background-color:white;
+		color: black;
+		font-size:20px;
+		text-align:left;
+		width: 400px;
+		border: none;
+		border-bottom: 1px solid gray;}
+
+input[type=text]:focus, input[type=email]:focus{
+		border-bottom: 2px solid red;}
+		
+input[type=button], [type=submit]{
+		background-color:gray;
+		color: white;
+		font-size:20px;
+		text-align:left;
+		display: inline-block;
+		padding: 12px 20px;
+		border: none;}
+		
+input[type=button]:hover, [type=submit]:hover{
+		background-color:black;
+		cursor:pointer;}
+		
+i.down {
+		border: solid gray;
+		border-width: 0 3px 3px 0;
+		display: inline-block;
+		padding: 3px;
+		text-align: right;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);}
+		
+.entInfo {
+		float: center;
+		text-align: center;}
+
+table {
+		border-collapse: collapse;
+		width: 100%;}
+
+th, td {
+		border-bottom: 1px solid darkgray;
+		width: auto;
+		padding: 10px;
+		text-align: left;
+		overflow-x: auto;}
+		
+hr {
+		color: black;
+		border: 1px solid black;
+		background-color: black;}
+
+.material-icons {
+		vertical-align:-14%;}
+		
+a.delete-icon {
+		background-color: white;
+		color: gray;
+		font-size: 20px;
+		text-decoration: none;}
+
+a.edit-icon {
+		background-color: white;
+		color: gray;
+		font-size: 30px;
+		text-decoration: none;}
+
+.del-column {
+		width: 100px;
+		text-align: right;}
